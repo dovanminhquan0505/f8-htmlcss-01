@@ -59,6 +59,7 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background: #e6f0ff;
     height: calc(100vh - 90px); /*Lắp đầy chiều cao màn hình*/
     position: relative;
@@ -103,15 +104,11 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
-}
-
-.hero .info {
+.hero-wrap .info {
     width: 51%; /*(559/1110)*/
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
@@ -119,7 +116,7 @@ a {
     line-height: 1.5;
 }
 
-.hero .title {
+.hero-wrap .title {
     color: #000336;
     font-size: 6.2rem;
     font-weight: 700;
@@ -127,14 +124,14 @@ a {
     margin-top: 8px;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
     line-height: 1.78; /*32/18 = 1.78*/
 }
 
-.hero-cta {
+.hero-wrap .cta {
     min-width: 170px;
     margin-top: 40px;
 }
