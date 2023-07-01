@@ -131,7 +131,7 @@ a {
     line-height: 1.78; /*32/18 = 1.78*/
 }
 
-.hero-wrap .cta {
+.hero-wrap .hero-cta {
     min-width: 170px;
     margin-top: 40px;
 }
